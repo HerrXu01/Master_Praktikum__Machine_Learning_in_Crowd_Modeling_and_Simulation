@@ -1,0 +1,13 @@
+{
+    "automata_size": {
+        "width": 50,
+        "height": 50
+    },
+    "targets": [
+        [25, 25]
+    ],
+    "obstacles": [[]], 
+    "pedestrians": [
+        {"pos": [5, 25], "speed": 1.0}
+    ]
+}

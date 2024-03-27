@@ -1,0 +1,2 @@
+This directory contains all the necessary files to implement the second part of the task 5 which has the marketplace scenario. It also has the scenario file, which has all the details of the setup and can be loaded into the topography of the Vadere GUI, before running.
+One can make changes accordingly to see the effects as mentioned in the report.

@@ -1,0 +1,29 @@
+generated_data_dir: generated_data/K_10         # If K is changed, then change the directory to re-generate the dataset
+output_dir: outputs                             # The directory to store the training information
+output_filename: B095_R230_outputs_single.txt
+K: 10                                           # The number of neighbors
+
+normal_train: False                             # Normal training (without cross-validation and bootstrap)
+val_size: 0
+test_size: 0.5
+
+cross_val: False
+train_combine_RB: True                          # If train on R+B
+train_data: B_095.csv                           # The data for training
+train_data_1: R_230.csv                         # One of the combined data. If set train_combine_RB to False, comment this item
+# test_on_other: R_230.csv                        # The other dataset used for testing. If set train_combine_RB to True, comment this item
+
+use_batch: False                                # If training with mini-batch or not
+# batch_size: 64                                # If set use_batch to False, then comment this item
+epochs: 2000
+lr: 0.001                                      # 0.001
+fold_splits: 10                                 # The number of folds in cross validation
+
+wandb:
+  project: single_train_on_B095R230
+  entity: mlcms_group_e
+
+model:
+  name: NN                                      # NN for Neural Network model, FD for Weidmann model
+  num_layers: 1                                 # The number of hidden layers
+  num_nodes: [3]                                # The number of nodes in each layer, the length of this list must equal num_layers

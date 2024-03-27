@@ -1,0 +1,21 @@
+Fold 0: Training loss 0.03160401061177254, Validation loss 0.031834330409765244
+Fold 1: Training loss 0.02592509798705578, Validation loss 0.026883726939558983
+Fold 2: Training loss 0.026164211332798004, Validation loss 0.027319636195898056
+Fold 3: Training loss 0.027494270354509354, Validation loss 0.02855161763727665
+Fold 4: Training loss 0.029191335663199425, Validation loss 0.02922283113002777
+Fold 5: Training loss 0.02893587201833725, Validation loss 0.029000241309404373
+Fold 6: Training loss 0.030453979969024658, Validation loss 0.029414966702461243
+Fold 7: Training loss 0.02511710673570633, Validation loss 0.025503475219011307
+Fold 8: Training loss 0.07629669457674026, Validation loss 0.07914391905069351
+Fold 9: Training loss 0.03075394034385681, Validation loss 0.032010018825531006
+Cross validation result: Average training loss: 0.03319365195930004, average validation loss: 0.03388847634196281
+
+Training on the full train set:
+Training loss 0.02806246466934681
+
+Testing on the other half of the same dataset B_095.csv
+Test loss: 0.027995677664875984
+
+Testing on the other dataset R_230.csv
+Test loss: 0.056587666273117065
+

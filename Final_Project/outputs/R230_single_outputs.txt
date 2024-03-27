@@ -1,0 +1,9 @@
+Training on the full train set:
+Training loss 0.02901376597583294
+
+Testing on the other half of the same dataset R_230.csv
+Test loss: 0.02871980145573616
+
+Testing on the other dataset B_095.csv
+Test loss: 0.04080035910010338
+

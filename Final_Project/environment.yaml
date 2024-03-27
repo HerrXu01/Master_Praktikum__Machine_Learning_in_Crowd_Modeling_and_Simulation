@@ -1,0 +1,22 @@
+name: mlcms
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip=22.3.1
+  - pytorch=1.13.1
+  - torchvision=0.14.1
+  - torchaudio=0.13.1
+  - cudatoolkit=11.6.0
+  - pip:
+    - pandas
+    - numpy
+    - scikit-learn
+    - tqdm
+    - pyyaml
+    - wandb
+    - notebook
+    - matplotlib

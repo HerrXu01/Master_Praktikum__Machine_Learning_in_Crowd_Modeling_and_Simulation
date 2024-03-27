@@ -1,0 +1,9 @@
+{
+"pedestrians": [
+{"Age": 20, "Mean_speed": 1.62, "Speed_deviation": 0.04},
+{"Age": 30, "Mean_speed": 1.54, "Speed_deviation": 0.04},
+{"Age": 40, "Mean_speed": 1.48, "Speed_deviation": 0.04},
+{"Age": 50, "Mean_speed": 1.40, "Speed_deviation": 0.04},
+{"Age": 60, "Mean_speed": 1.27, "Speed_deviation": 0.04}
+    ]
+}
