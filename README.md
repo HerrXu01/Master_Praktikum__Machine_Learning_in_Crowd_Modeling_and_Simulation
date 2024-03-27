@@ -40,7 +40,7 @@ To use the code in this repository, please ensure you have the required dependen
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/HerrXu01/Master_Praktikum__Machine_Learning_in_Crowd_Modeling_and_Simulation/blob/master/LICENSE.md) file for details.
 
 ## Acknowledgments
 
